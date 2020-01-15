@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.mac.dao.UserDao">
+
+
+    <resultMap id="PermissionCodeResultMap" type="com.mac.vo.dto.UserPermissionDto">
+        <id column="id" property="id" />
+        <result column="username" property="username" />
+        <result column="role_name" property="roleName" />
+        <result column="role_code" property="roleCode" />
+        <result column="permission_name" property="permissionName" />
+        <result column="permission_code" property="permissionCode" />
+    </resultMap>
+
+    <select id="findPermissionCodeByUserId" resultMap="PermissionCodeResultMap">
+        SELECT
+            u.id as id,
+            u.username as username,
+            r.role_name as role_name,
+            r.role_code as role_code,
+            p.permission_name as permission_name,
+            p.permission_code as permission_code
+        FROM
+            tb_user u
+            LEFT JOIN tb_user_role ur ON u.id = ur.user_id
+            LEFT JOIN tb_role r ON r.id = ur.role_id
+            LEFT JOIN tb_role_permission rp ON r.id = rp.role_id
+            LEFT JOIN tb_permission p ON rp.permission_id = p.id
+        WHERE
+            u.id = #{userId,jdbcType=VARCHAR}
+    </select>
+
+</mapper>
