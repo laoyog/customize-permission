@@ -1,0 +1,277 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="98f35bcb-c86c-4821-84eb-f8e8c1f998ad" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/$CACHE_FILE$" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/customize-permission.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/META-INF/customize-permission.kotlin_module" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/mac/Application.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/mac/annotation/MyPermission.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/mac/annotation/PermissionAspect.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/mac/annotation/PermissionConsts.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/mac/annotation/test.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/mac/bean/TbPermission.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/mac/bean/TbProduct.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/mac/bean/TbRole.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/mac/bean/TbUser.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/mac/controller/ProductController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/mac/dao/ProductDao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/mac/dao/UserDao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/mac/service/ProductService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/mac/vo/Result.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/mac/vo/dto/ProductDto.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/mac/vo/dto/UserPermissionDto.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/mac/vo/param/ProductAddParam.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/mac/vo/param/ProductUpdateParam.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/mapper/ProductDao.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/mapper/UserDao.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Enum" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IgnoredFileRootStore">
+    <option name="generatedRoots">
+      <set>
+        <option value="$PROJECT_DIR$/.idea" />
+      </set>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="$PROJECT_DIR$/../../apache-maven-3.5.4" />
+        <option name="userSettingsFile" value="$PROJECT_DIR$/../../apache-maven-3.5.4/conf/settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1Vm8mT3WyS1d8jxDe4g1coIu5nz" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelOrder2" value="2" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="RequestMappingsPanelWidth2" value="75" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/resources/mapper" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.mac.vo.param" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/resources/mapper" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Spring Boot.Application">
+    <configuration name="test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.mac.annotation.test" />
+      <module name="customize-permission" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.mac.annotation.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="customize-permission" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.mac.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.mac.Application" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Spring Boot.Application" />
+        <item itemvalue="Application.test" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="98f35bcb-c86c-4821-84eb-f8e8c1f998ad" name="Default Changelist" comment="" />
+      <created>1577847068587</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1577847068587</updated>
+      <workItem from="1577847072607" duration="20544000" />
+      <workItem from="1578994308664" duration="9089000" />
+    </task>
+    <task id="LOCAL-00001" summary="初始化提交">
+      <created>1579060197155</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1579060197155</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="初始化提交" />
+    <option name="LAST_COMMIT_MESSAGE" value="初始化提交" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="440" y="168" key="#Inspections" timestamp="1577962998082">
+      <screen x="0" y="23" width="1680" height="957" />
+    </state>
+    <state x="440" y="168" key="#Inspections/0.23.1680.957@0.23.1680.957" timestamp="1577962998082" />
+    <state x="440" y="168" key="#Project_Structure" timestamp="1577847338644">
+      <screen x="0" y="23" width="1680" height="957" />
+    </state>
+    <state x="440" y="168" key="#Project_Structure/0.23.1680.957@0.23.1680.957" timestamp="1577847338644" />
+    <state x="477" y="434" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1577966225524">
+      <screen x="0" y="23" width="1680" height="957" />
+    </state>
+    <state x="477" y="434" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.23.1680.957@0.23.1680.957" timestamp="1577966225524" />
+    <state x="654" y="370" width="371" height="267" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1577966159008">
+      <screen x="0" y="23" width="1680" height="957" />
+    </state>
+    <state x="654" y="370" width="371" height="267" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.23.1680.957@0.23.1680.957" timestamp="1577966159008" />
+    <state x="438" y="108" key="CommitChangelistDialog2" timestamp="1579060196942">
+      <screen x="0" y="23" width="1680" height="958" />
+    </state>
+    <state x="438" y="108" key="CommitChangelistDialog2/0.23.1680.958@0.23.1680.958" timestamp="1579060196942" />
+    <state width="1638" height="354" key="GridCell.Tab.0.bottom" timestamp="1579055068653">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state width="1638" height="354" key="GridCell.Tab.0.bottom/0.0.1680.1050@0.0.1680.1050" timestamp="1579055068653" />
+    <state width="1638" height="354" key="GridCell.Tab.0.center" timestamp="1579055068652">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state width="1638" height="354" key="GridCell.Tab.0.center/0.0.1680.1050@0.0.1680.1050" timestamp="1579055068652" />
+    <state width="1638" height="354" key="GridCell.Tab.0.left" timestamp="1579055068650">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state width="1638" height="354" key="GridCell.Tab.0.left/0.0.1680.1050@0.0.1680.1050" timestamp="1579055068650" />
+    <state width="1638" height="354" key="GridCell.Tab.0.right" timestamp="1579055068652">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state width="1638" height="354" key="GridCell.Tab.0.right/0.0.1680.1050@0.0.1680.1050" timestamp="1579055068652" />
+    <state width="1638" height="354" key="GridCell.Tab.1.bottom" timestamp="1579055068655">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state width="1638" height="354" key="GridCell.Tab.1.bottom/0.0.1680.1050@0.0.1680.1050" timestamp="1579055068655" />
+    <state width="1638" height="354" key="GridCell.Tab.1.bottom/0.23.1680.957@0.23.1680.957" timestamp="1578031301760" />
+    <state width="1638" height="354" key="GridCell.Tab.1.center" timestamp="1579055068654">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state width="1638" height="354" key="GridCell.Tab.1.center/0.0.1680.1050@0.0.1680.1050" timestamp="1579055068654" />
+    <state width="1638" height="354" key="GridCell.Tab.1.center/0.23.1680.957@0.23.1680.957" timestamp="1578031301756" />
+    <state width="1638" height="354" key="GridCell.Tab.1.left" timestamp="1579055068654">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state width="1638" height="354" key="GridCell.Tab.1.left/0.0.1680.1050@0.0.1680.1050" timestamp="1579055068654" />
+    <state width="1638" height="354" key="GridCell.Tab.1.left/0.23.1680.957@0.23.1680.957" timestamp="1578031301755" />
+    <state width="1638" height="354" key="GridCell.Tab.1.right" timestamp="1579055068655">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state width="1638" height="354" key="GridCell.Tab.1.right/0.0.1680.1050@0.0.1680.1050" timestamp="1579055068655" />
+    <state width="1638" height="354" key="GridCell.Tab.1.right/0.23.1680.957@0.23.1680.957" timestamp="1578031301758" />
+    <state width="1638" height="354" key="GridCell.Tab.2.bottom" timestamp="1579055068657">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state width="1638" height="354" key="GridCell.Tab.2.bottom/0.0.1680.1050@0.0.1680.1050" timestamp="1579055068657" />
+    <state width="1638" height="354" key="GridCell.Tab.2.center" timestamp="1579055068656">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state width="1638" height="354" key="GridCell.Tab.2.center/0.0.1680.1050@0.0.1680.1050" timestamp="1579055068656" />
+    <state width="1638" height="354" key="GridCell.Tab.2.left" timestamp="1579055068656">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state width="1638" height="354" key="GridCell.Tab.2.left/0.0.1680.1050@0.0.1680.1050" timestamp="1579055068656" />
+    <state width="1638" height="354" key="GridCell.Tab.2.right" timestamp="1579055068656">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state width="1638" height="354" key="GridCell.Tab.2.right/0.0.1680.1050@0.0.1680.1050" timestamp="1579055068656" />
+    <state x="378" y="165" key="Maven.ArtifactSearchDialog" timestamp="1577965752786">
+      <screen x="0" y="23" width="1680" height="957" />
+    </state>
+    <state x="378" y="165" key="Maven.ArtifactSearchDialog/0.23.1680.957@0.23.1680.957" timestamp="1577965752786" />
+    <state x="364" y="140" key="SettingsEditor" timestamp="1577847127765">
+      <screen x="0" y="23" width="1680" height="957" />
+    </state>
+    <state x="364" y="140" key="SettingsEditor/0.23.1680.957@0.23.1680.957" timestamp="1577847127765" />
+    <state x="440" y="243" key="Vcs.Push.Dialog.v2" timestamp="1579061185176">
+      <screen x="0" y="23" width="1680" height="958" />
+    </state>
+    <state x="440" y="243" key="Vcs.Push.Dialog.v2/0.23.1680.958@0.23.1680.958" timestamp="1579061185176" />
+    <state x="622" y="304" key="git4idea.merge.GitPullDialog" timestamp="1579059986349">
+      <screen x="0" y="23" width="1680" height="958" />
+    </state>
+    <state x="622" y="304" key="git4idea.merge.GitPullDialog/0.23.1680.958@0.23.1680.958" timestamp="1579059986349" />
+    <state x="631" y="413" key="git4idea.ui.GitStashDialog" timestamp="1579061344010">
+      <screen x="0" y="23" width="1680" height="958" />
+    </state>
+    <state x="631" y="413" key="git4idea.ui.GitStashDialog/0.23.1680.958@0.23.1680.958" timestamp="1579061344010" />
+    <state x="505" y="233" width="670" height="676" key="search.everywhere.popup" timestamp="1578013639320">
+      <screen x="0" y="23" width="1680" height="957" />
+    </state>
+    <state x="505" y="233" width="670" height="676" key="search.everywhere.popup/0.23.1680.957@0.23.1680.957" timestamp="1578013639320" />
+  </component>
+</project>
