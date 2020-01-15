@@ -18,4 +18,16 @@ public class Result<T> {
 
     private T t;
 
+    public Result() {}
+
+    public Result(String code, String msg) {
+        this.code = code;
+        this.msg = msg;
+    }
+
+    public Result(String code, String msg, T t) {
+        this.code = code;
+        this.msg = msg;
+        this.t = t;
+    }
 }
