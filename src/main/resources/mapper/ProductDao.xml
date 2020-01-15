@@ -6,17 +6,17 @@
         SELECT * FROM tb_product
     </select>
 
-    <insert id="add" parameterType="com.mac.vo.param.ProductAddParam" keyProperty="id">
+    <insert id="add" parameterType="com.mac.vo.param.ProductAddParam">
         insert into tb_product
         <trim prefix="(" suffix=")" suffixOverrides="," >
             name,
             count,
-            desc
+            description,
         </trim>
         <trim prefix="values (" suffix=")" suffixOverrides="," >
             #{name,jdbcType=VARCHAR},
             #{count,jdbcType=VARCHAR},
-            #{desc,jdbcType=VARCHAR}
+            #{description,jdbcType=VARCHAR},
         </trim>
     </insert>
 
@@ -25,7 +25,7 @@
         <trim prefix="" suffix="" suffixOverrides="," >
             name = #{name},
             count = #{count},
-            desc = #{desc},
+            description = #{description},
         </trim>
         <where>
             id = #{id}

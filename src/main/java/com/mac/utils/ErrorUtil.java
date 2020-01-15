@@ -24,7 +24,7 @@ public class ErrorUtil {
         } catch (HttpRequestMethodNotSupportedException e) {
             return new Result<>("40001","请求方式错误");
         } catch (IllegalArgumentException e) {
-            return new Result<>("40002",e.getMessage());
+            return new Result<>("40002", e.getMessage());
         } catch (RuntimeException e) {
             return new Result<>("50000", e.getMessage());
         } catch (BindException e) {

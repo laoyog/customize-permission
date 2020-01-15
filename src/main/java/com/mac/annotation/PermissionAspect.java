@@ -81,10 +81,6 @@ public class PermissionAspect {
 
         //假设token里只是一个userId,查询到他有删除和查看的权限，没有添加和修改的权限
         // 解析token之后，获取当前用户的账号信息，查看它对应的角色和权限信息
-        //String[] permissionCodes = {PermissionConsts.R};
-        //List<String> codes = Arrays.asList(permissionCodes);
-
-        //解析token，假设token就是userId
         //String userId = parse(token);
         List<UserPermissionDto> codes = userDao.findPermissionCodeByUserId(token);
         List<String> permissionCodes = codes.stream().map(UserPermissionDto::getPermissionCode).collect(Collectors.toList());

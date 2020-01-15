@@ -16,6 +16,6 @@ public class TbProduct {
 
     private String count;
 
-    private String desc;
+    private String description;
 
 }

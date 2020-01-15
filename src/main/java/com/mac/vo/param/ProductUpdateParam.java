@@ -14,5 +14,5 @@ public class ProductUpdateParam {
 
     private String count;
 
-    private String desc;
+    private String description;
 }

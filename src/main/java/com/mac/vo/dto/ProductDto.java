@@ -13,5 +13,5 @@ public class ProductDto {
 
     private String count;
 
-    private String desc;
+    private String description;
 }

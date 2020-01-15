@@ -25,6 +25,4 @@ public class PermissionConsts {
      * 删除权限
      */
     public static final String D = "D_PERMISSION";
-
-
 }

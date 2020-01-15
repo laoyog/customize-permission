@@ -12,5 +12,5 @@ public class ProductAddParam {
 
     private String count;
 
-    private String desc;
+    private String description;
 }
